@@ -1,0 +1,21 @@
+{
+  "name": "hadarjs-core",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-nats-streaming": "^0.3.2",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  }
+}
